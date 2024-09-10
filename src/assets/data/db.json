@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "email": "franciscoA@yop.com",
+      "password": "$2a$10$OaK8Rf/yP3l87TIkB.jjaOdIsG0synKBVlZGPB2dNiLbGN4La/sUS",
+      "id": 1,
+      "role": "Admin"
+    },
+    {
+      "email": "franciscoL@yop.com",
+      "password": "$2a$10$/0S2hk2XLjdi2RO7MGZQ.eXy80rnoNSgmVlNgsY.MDI9wBvxD1Iau",
+      "id": 2,
+      "role": "Librarian"
+    },
+    {
+      "email": "francisco3@yop.com",
+      "password": "$2a$10$4R.z4woxVEdxAy9pWs/qROQ0PpSSCZblbLPGOMaMJErGHAtX1qSla",
+      "role": "Librarian",
+      "id": 3
+    }
+  ],
+  "libros": [
+    {
+      "id": "1",
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "anio": 1949,
+      "genero": "Distopía",
+      "descripcion": "Una novela sobre un futuro distópico donde el mundo es gobernado por regímenes totalitarios.",
+      "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-libros/1984.jpg"
+    },
+    {
+      "id": "2",
+      "titulo": "Matar a un ruiseñor",
+      "autor": "Harper Lee",
+      "anio": 1960,
+      "genero": "Ficción",
+      "descripcion": "Una novela sobre la injusticia racial en el sur profundo de Estados Unidos.",
+      "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-libros/ruise%C3%B1or.jpg"
+    },
+    {
+      "id": "BOktLQ9",
+      "titulo": "Orgullo y prejuicio",
+      "autor": "Jane Austen",
+      "anio": 1813,
+      "genero": "Romance",
+      "descripcion": "Una novela clásica sobre los modales y las maquinaciones matrimoniales de la clase media británica a finales del siglo XVIII",
+      "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-libros/orgullo.jpg"
+    }
+  ]
+}

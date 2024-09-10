@@ -1,0 +1,13 @@
+.libro-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los elementos */
+  }
+  
+  @media (max-width: 991.98px) {
+    /* En pantallas pequeñas, se apilan */
+    .libro-layout {
+      flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Género</th>
+            <th>Año</th>
+            <th>Imagen</th>
+            <th>Descripción</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let libro of libros">
+            <td>{{libro.id}}</td>
+            <td>{{libro.titulo}}</td>
+            <td>{{libro.autor}}</td>
+            <td>{{libro.genero}}</td>
+            <td>{{libro.anio}}</td>
+            <td><img [src]="libro.imagen" alt="{{libro.titulo}}" class="img-fluid" width="50"></td>
+            <td>{{libro.descripcion}}</td>
+            <td>
+                <a [routerLink]="['/editarLibros', libro.id]" class="btn btn-success">Editar</a>
+                <button class="btn btn-danger" (click)="eliminar(libro.id)">Eliminar</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
